@@ -1,0 +1,1407 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE coverage SYSTEM "http://cobertura.sourceforge.net/xml/coverage-04.dtd">
+<coverage line-rate="0.557575757575758" branch-rate="0.306818181818182" lines-covered="276" lines-valid="495" branches-covered="27" branches-valid="88" complexity="102" version="0" timestamp="1702715462">
+  <sources />
+  <packages>
+    <package name="StoreWPF" line-rate="0.474820143884892" branch-rate="0.27027027027027" complexity="85">
+      <classes>
+        <class name="StoreWPF.Authorization" filename="C:\Users\alexc\source\repos\StoreWPF\StoreWPF\Authorization.xaml.cs" line-rate="0.129032258064516" branch-rate="0" complexity="1">
+          <methods>
+            <method name=".ctor" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="24" hits="3" branch="false" />
+                <line number="25" hits="3" branch="false" />
+                <line number="26" hits="3" branch="false" />
+                <line number="27" hits="3" branch="false" />
+              </lines>
+            </method>
+            <method name="Window_Closed" signature="(System.Object,System.EventArgs)" line-rate="0" branch-rate="1" complexity="NaN">
+              <lines>
+                <line number="29" hits="0" branch="false" />
+                <line number="30" hits="0" branch="false" />
+                <line number="31" hits="0" branch="false" />
+                <line number="32" hits="0" branch="false" />
+              </lines>
+            </method>
+            <method name="ButtonAutSwap_Click" signature="(System.Object,System.Windows.RoutedEventArgs)" line-rate="0" branch-rate="1" complexity="NaN">
+              <lines>
+                <line number="35" hits="0" branch="false" />
+                <line number="36" hits="0" branch="false" />
+                <line number="37" hits="0" branch="false" />
+                <line number="38" hits="0" branch="false" />
+              </lines>
+            </method>
+            <method name="EntranceButtonAut_Click" signature="(System.Object,System.Windows.RoutedEventArgs)" line-rate="0" branch-rate="0" complexity="NaN">
+              <lines>
+                <line number="41" hits="0" branch="false" />
+                <line number="43" hits="0" branch="false" />
+                <line number="44" hits="0" branch="true" condition-coverage="0% (0/2)" />
+                <line number="45" hits="0" branch="false" />
+                <line number="46" hits="0" branch="false" />
+                <line number="47" hits="0" branch="false" />
+                <line number="48" hits="0" branch="false" />
+                <line number="49" hits="0" branch="true" condition-coverage="0% (0/2)" />
+                <line number="50" hits="0" branch="false" />
+                <line number="51" hits="0" branch="false" />
+                <line number="52" hits="0" branch="false" />
+                <line number="53" hits="0" branch="false" />
+                <line number="54" hits="0" branch="false" />
+                <line number="55" hits="0" branch="false" />
+                <line number="56" hits="0" branch="true" condition-coverage="0% (0/2)" />
+                <line number="57" hits="0" branch="false" />
+                <line number="58" hits="0" branch="false" />
+                <line number="59" hits="0" branch="false" />
+                <line number="60" hits="0" branch="false" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="24" hits="3" branch="false" />
+            <line number="25" hits="3" branch="false" />
+            <line number="26" hits="3" branch="false" />
+            <line number="27" hits="3" branch="false" />
+            <line number="29" hits="0" branch="false" />
+            <line number="30" hits="0" branch="false" />
+            <line number="31" hits="0" branch="false" />
+            <line number="32" hits="0" branch="false" />
+            <line number="35" hits="0" branch="false" />
+            <line number="36" hits="0" branch="false" />
+            <line number="37" hits="0" branch="false" />
+            <line number="38" hits="0" branch="false" />
+            <line number="41" hits="0" branch="false" />
+            <line number="43" hits="0" branch="false" />
+            <line number="44" hits="0" branch="true" condition-coverage="0% (0/2)" />
+            <line number="45" hits="0" branch="false" />
+            <line number="46" hits="0" branch="false" />
+            <line number="47" hits="0" branch="false" />
+            <line number="48" hits="0" branch="false" />
+            <line number="49" hits="0" branch="true" condition-coverage="0% (0/2)" />
+            <line number="50" hits="0" branch="false" />
+            <line number="51" hits="0" branch="false" />
+            <line number="52" hits="0" branch="false" />
+            <line number="53" hits="0" branch="false" />
+            <line number="54" hits="0" branch="false" />
+            <line number="55" hits="0" branch="false" />
+            <line number="56" hits="0" branch="true" condition-coverage="0% (0/2)" />
+            <line number="57" hits="0" branch="false" />
+            <line number="58" hits="0" branch="false" />
+            <line number="59" hits="0" branch="false" />
+            <line number="60" hits="0" branch="false" />
+          </lines>
+        </class>
+        <class name="StoreWPF.Cart" filename="C:\Users\alexc\source\repos\StoreWPF\StoreWPF\Cart.xaml.cs" line-rate="0" branch-rate="0" complexity="4">
+          <methods>
+            <method name=".ctor" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="22" hits="0" branch="false" />
+                <line number="23" hits="0" branch="false" />
+                <line number="24" hits="0" branch="false" />
+                <line number="25" hits="0" branch="false" />
+                <line number="26" hits="0" branch="false" />
+              </lines>
+            </method>
+            <method name="ShowDisplayCart" signature="()" line-rate="0" branch-rate="0" complexity="3">
+              <lines>
+                <line number="34" hits="0" branch="false" />
+                <line number="35" hits="0" branch="false" />
+                <line number="36" hits="0" branch="false" />
+                <line number="37" hits="0" branch="false" />
+                <line number="38" hits="0" branch="false" />
+                <line number="39" hits="0" branch="false" />
+                <line number="40" hits="0" branch="true" condition-coverage="0% (0/2)" />
+                <line number="41" hits="0" branch="false" />
+                <line number="42" hits="0" branch="false" />
+                <line number="43" hits="0" branch="false" />
+                <line number="44" hits="0" branch="false" />
+                <line number="45" hits="0" branch="false" />
+                <line number="46" hits="0" branch="false" />
+                <line number="47" hits="0" branch="false" />
+                <line number="48" hits="0" branch="false" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="22" hits="0" branch="false" />
+            <line number="23" hits="0" branch="false" />
+            <line number="24" hits="0" branch="false" />
+            <line number="25" hits="0" branch="false" />
+            <line number="26" hits="0" branch="false" />
+            <line number="34" hits="0" branch="false" />
+            <line number="35" hits="0" branch="false" />
+            <line number="36" hits="0" branch="false" />
+            <line number="37" hits="0" branch="false" />
+            <line number="38" hits="0" branch="false" />
+            <line number="39" hits="0" branch="false" />
+            <line number="40" hits="0" branch="true" condition-coverage="0% (0/2)" />
+            <line number="41" hits="0" branch="false" />
+            <line number="42" hits="0" branch="false" />
+            <line number="43" hits="0" branch="false" />
+            <line number="44" hits="0" branch="false" />
+            <line number="45" hits="0" branch="false" />
+            <line number="46" hits="0" branch="false" />
+            <line number="47" hits="0" branch="false" />
+            <line number="48" hits="0" branch="false" />
+          </lines>
+        </class>
+        <class name="StoreWPF.MainWindow" filename="C:\Users\alexc\source\repos\StoreWPF\StoreWPF\MainWindow.xaml.cs" line-rate="0.46031746031746" branch-rate="0.333333333333333" complexity="6">
+          <methods>
+            <method name=".ctor" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="24" hits="1" branch="false" />
+                <line number="25" hits="1" branch="false" />
+                <line number="26" hits="1" branch="false" />
+                <line number="27" hits="1" branch="false" />
+                <line number="28" hits="1" branch="false" />
+                <line number="29" hits="1" branch="false" />
+                <line number="31" hits="1" branch="false" />
+              </lines>
+            </method>
+            <method name="AccountDisplay" signature="()" line-rate="0.615384615384615" branch-rate="0.5" complexity="2">
+              <lines>
+                <line number="33" hits="1" branch="false" />
+                <line number="34" hits="1" branch="true" condition-coverage="50% (1/2)" />
+                <line number="35" hits="1" branch="false" />
+                <line number="36" hits="1" branch="false" />
+                <line number="37" hits="1" branch="false" />
+                <line number="38" hits="1" branch="false" />
+                <line number="39" hits="1" branch="false" />
+                <line number="41" hits="0" branch="false" />
+                <line number="42" hits="0" branch="false" />
+                <line number="43" hits="0" branch="false" />
+                <line number="44" hits="0" branch="false" />
+                <line number="45" hits="0" branch="false" />
+                <line number="46" hits="1" branch="false" />
+              </lines>
+            </method>
+            <method name="ButtonLoginToAccount_Click" signature="(System.Object,System.Windows.RoutedEventArgs)" line-rate="0" branch-rate="1" complexity="NaN">
+              <lines>
+                <line number="49" hits="0" branch="false" />
+                <line number="50" hits="0" branch="false" />
+                <line number="51" hits="0" branch="false" />
+                <line number="52" hits="0" branch="false" />
+                <line number="53" hits="0" branch="false" />
+              </lines>
+            </method>
+            <method name="ButtonExitToAccount_Click" signature="(System.Object,System.Windows.RoutedEventArgs)" line-rate="0" branch-rate="0" complexity="NaN">
+              <lines>
+                <line number="56" hits="0" branch="false" />
+                <line number="57" hits="0" branch="false" />
+                <line number="58" hits="0" branch="false" />
+                <line number="59" hits="0" branch="true" condition-coverage="0% (0/2)" />
+                <line number="60" hits="0" branch="false" />
+                <line number="61" hits="0" branch="false" />
+                <line number="62" hits="0" branch="false" />
+                <line number="63" hits="0" branch="false" />
+                <line number="64" hits="0" branch="false" />
+                <line number="66" hits="0" branch="false" />
+                <line number="67" hits="0" branch="false" />
+                <line number="68" hits="0" branch="false" />
+                <line number="69" hits="0" branch="false" />
+                <line number="70" hits="0" branch="false" />
+                <line number="71" hits="0" branch="false" />
+              </lines>
+            </method>
+            <method name="ShowDisplayForUser" signature="()" line-rate="0.823529411764706" branch-rate="0.5" complexity="3">
+              <lines>
+                <line number="73" hits="1" branch="false" />
+                <line number="74" hits="1" branch="false" />
+                <line number="75" hits="1" branch="false" />
+                <line number="76" hits="15" branch="false" />
+                <line number="77" hits="6" branch="false" />
+                <line number="78" hits="6" branch="false" />
+                <line number="79" hits="6" branch="false" />
+                <line number="80" hits="6" branch="false" />
+                <line number="81" hits="6" branch="true" condition-coverage="50% (1/2)" />
+                <line number="82" hits="0" branch="false" />
+                <line number="83" hits="0" branch="false" />
+                <line number="84" hits="0" branch="false" />
+                <line number="86" hits="6" branch="false" />
+                <line number="87" hits="6" branch="false" />
+                <line number="88" hits="6" branch="false" />
+                <line number="91" hits="6" branch="false" />
+                <line number="92" hits="1" branch="false" />
+              </lines>
+            </method>
+            <method name="Window_Closing" signature="(System.Object,System.ComponentModel.CancelEventArgs)" line-rate="0" branch-rate="1" complexity="NaN">
+              <lines>
+                <line number="100" hits="0" branch="false" />
+                <line number="106" hits="0" branch="false" />
+                <line number="107" hits="0" branch="false" />
+              </lines>
+            </method>
+            <method name="buttonBasket_Click" signature="(System.Object,System.Windows.RoutedEventArgs)" line-rate="0" branch-rate="1" complexity="NaN">
+              <lines>
+                <line number="110" hits="0" branch="false" />
+                <line number="111" hits="0" branch="false" />
+                <line number="112" hits="0" branch="false" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="24" hits="1" branch="false" />
+            <line number="25" hits="1" branch="false" />
+            <line number="26" hits="1" branch="false" />
+            <line number="27" hits="1" branch="false" />
+            <line number="28" hits="1" branch="false" />
+            <line number="29" hits="1" branch="false" />
+            <line number="31" hits="1" branch="false" />
+            <line number="33" hits="1" branch="false" />
+            <line number="34" hits="1" branch="true" condition-coverage="50% (1/2)" />
+            <line number="35" hits="1" branch="false" />
+            <line number="36" hits="1" branch="false" />
+            <line number="37" hits="1" branch="false" />
+            <line number="38" hits="1" branch="false" />
+            <line number="39" hits="1" branch="false" />
+            <line number="41" hits="0" branch="false" />
+            <line number="42" hits="0" branch="false" />
+            <line number="43" hits="0" branch="false" />
+            <line number="44" hits="0" branch="false" />
+            <line number="45" hits="0" branch="false" />
+            <line number="46" hits="1" branch="false" />
+            <line number="49" hits="0" branch="false" />
+            <line number="50" hits="0" branch="false" />
+            <line number="51" hits="0" branch="false" />
+            <line number="52" hits="0" branch="false" />
+            <line number="53" hits="0" branch="false" />
+            <line number="56" hits="0" branch="false" />
+            <line number="57" hits="0" branch="false" />
+            <line number="58" hits="0" branch="false" />
+            <line number="59" hits="0" branch="true" condition-coverage="0% (0/2)" />
+            <line number="60" hits="0" branch="false" />
+            <line number="61" hits="0" branch="false" />
+            <line number="62" hits="0" branch="false" />
+            <line number="63" hits="0" branch="false" />
+            <line number="64" hits="0" branch="false" />
+            <line number="66" hits="0" branch="false" />
+            <line number="67" hits="0" branch="false" />
+            <line number="68" hits="0" branch="false" />
+            <line number="69" hits="0" branch="false" />
+            <line number="70" hits="0" branch="false" />
+            <line number="71" hits="0" branch="false" />
+            <line number="73" hits="1" branch="false" />
+            <line number="74" hits="1" branch="false" />
+            <line number="75" hits="1" branch="false" />
+            <line number="76" hits="15" branch="false" />
+            <line number="77" hits="6" branch="false" />
+            <line number="78" hits="6" branch="false" />
+            <line number="79" hits="6" branch="false" />
+            <line number="80" hits="6" branch="false" />
+            <line number="81" hits="6" branch="true" condition-coverage="50% (1/2)" />
+            <line number="82" hits="0" branch="false" />
+            <line number="83" hits="0" branch="false" />
+            <line number="84" hits="0" branch="false" />
+            <line number="86" hits="6" branch="false" />
+            <line number="87" hits="6" branch="false" />
+            <line number="88" hits="6" branch="false" />
+            <line number="91" hits="6" branch="false" />
+            <line number="92" hits="1" branch="false" />
+            <line number="100" hits="0" branch="false" />
+            <line number="106" hits="0" branch="false" />
+            <line number="107" hits="0" branch="false" />
+            <line number="110" hits="0" branch="false" />
+            <line number="111" hits="0" branch="false" />
+            <line number="112" hits="0" branch="false" />
+          </lines>
+        </class>
+        <class name="StoreWPF.Product" filename="C:\Users\alexc\source\repos\StoreWPF\StoreWPF\Product.cs" line-rate="1" branch-rate="1" complexity="NaN">
+          <methods>
+            <method name="Id" signature="()" line-rate="1" branch-rate="1" complexity="NaN">
+              <lines>
+                <line number="14" hits="66" branch="false" />
+              </lines>
+            </method>
+            <method name="Id" signature="(System.Int32)" line-rate="1" branch-rate="1" complexity="NaN">
+              <lines>
+                <line number="15" hits="456" branch="false" />
+              </lines>
+            </method>
+            <method name="ImagePath" signature="()" line-rate="1" branch-rate="1" complexity="NaN">
+              <lines>
+                <line number="20" hits="102" branch="false" />
+              </lines>
+            </method>
+            <method name="ImagePath" signature="(System.String)" line-rate="1" branch-rate="1" complexity="NaN">
+              <lines>
+                <line number="21" hits="456" branch="false" />
+              </lines>
+            </method>
+            <method name="Name" signature="()" line-rate="1" branch-rate="1" complexity="NaN">
+              <lines>
+                <line number="26" hits="102" branch="false" />
+              </lines>
+            </method>
+            <method name="Name" signature="(System.String)" line-rate="1" branch-rate="1" complexity="NaN">
+              <lines>
+                <line number="27" hits="456" branch="false" />
+              </lines>
+            </method>
+            <method name="Description" signature="()" line-rate="1" branch-rate="1" complexity="NaN">
+              <lines>
+                <line number="32" hits="102" branch="false" />
+              </lines>
+            </method>
+            <method name="Description" signature="(System.String)" line-rate="1" branch-rate="1" complexity="NaN">
+              <lines>
+                <line number="33" hits="456" branch="false" />
+              </lines>
+            </method>
+            <method name="Price" signature="()" line-rate="1" branch-rate="1" complexity="NaN">
+              <lines>
+                <line number="38" hits="102" branch="false" />
+              </lines>
+            </method>
+            <method name="Price" signature="(System.Int32)" line-rate="1" branch-rate="1" complexity="NaN">
+              <lines>
+                <line number="39" hits="456" branch="false" />
+              </lines>
+            </method>
+            <method name="MaxAmount" signature="()" line-rate="1" branch-rate="1" complexity="NaN">
+              <lines>
+                <line number="44" hits="66" branch="false" />
+              </lines>
+            </method>
+            <method name="MaxAmount" signature="(System.Int32)" line-rate="1" branch-rate="1" complexity="NaN">
+              <lines>
+                <line number="45" hits="456" branch="false" />
+              </lines>
+            </method>
+            <method name=".ctor" signature="(System.Int32,System.String,System.String,System.String,System.Int32,System.Int32)" line-rate="1" branch-rate="1" complexity="NaN">
+              <lines>
+                <line number="47" hits="152" branch="false" />
+                <line number="48" hits="152" branch="false" />
+                <line number="49" hits="152" branch="false" />
+                <line number="50" hits="152" branch="false" />
+                <line number="51" hits="152" branch="false" />
+                <line number="52" hits="152" branch="false" />
+                <line number="53" hits="152" branch="false" />
+                <line number="54" hits="152" branch="false" />
+                <line number="55" hits="152" branch="false" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="14" hits="66" branch="false" />
+            <line number="15" hits="456" branch="false" />
+            <line number="20" hits="102" branch="false" />
+            <line number="21" hits="456" branch="false" />
+            <line number="26" hits="102" branch="false" />
+            <line number="27" hits="456" branch="false" />
+            <line number="32" hits="102" branch="false" />
+            <line number="33" hits="456" branch="false" />
+            <line number="38" hits="102" branch="false" />
+            <line number="39" hits="456" branch="false" />
+            <line number="44" hits="66" branch="false" />
+            <line number="45" hits="456" branch="false" />
+            <line number="47" hits="152" branch="false" />
+            <line number="48" hits="152" branch="false" />
+            <line number="49" hits="152" branch="false" />
+            <line number="50" hits="152" branch="false" />
+            <line number="51" hits="152" branch="false" />
+            <line number="52" hits="152" branch="false" />
+            <line number="53" hits="152" branch="false" />
+            <line number="54" hits="152" branch="false" />
+            <line number="55" hits="152" branch="false" />
+          </lines>
+        </class>
+        <class name="StoreWPF.ProductInCart" filename="C:\Users\alexc\source\repos\StoreWPF\StoreWPF\ProductInCart.cs" line-rate="0.888888888888889" branch-rate="1" complexity="NaN">
+          <methods>
+            <method name="IdUser" signature="()" line-rate="1" branch-rate="1" complexity="NaN">
+              <lines>
+                <line number="14" hits="9" branch="false" />
+              </lines>
+            </method>
+            <method name="IdUser" signature="(System.Int32)" line-rate="1" branch-rate="1" complexity="NaN">
+              <lines>
+                <line number="15" hits="69" branch="false" />
+              </lines>
+            </method>
+            <method name="Amount" signature="()" line-rate="1" branch-rate="1" complexity="NaN">
+              <lines>
+                <line number="20" hits="9" branch="false" />
+              </lines>
+            </method>
+            <method name="Amount" signature="(System.Int32)" line-rate="0" branch-rate="1" complexity="NaN">
+              <lines>
+                <line number="21" hits="0" branch="false" />
+              </lines>
+            </method>
+            <method name=".ctor" signature="(System.Int32,System.Int32,System.String,System.String,System.String,System.Int32,System.Int32,System.Int32)" line-rate="1" branch-rate="1" complexity="NaN">
+              <lines>
+                <line number="24" hits="23" branch="false" />
+                <line number="25" hits="23" branch="false" />
+                <line number="26" hits="23" branch="false" />
+                <line number="27" hits="23" branch="false" />
+                <line number="28" hits="23" branch="false" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="14" hits="9" branch="false" />
+            <line number="15" hits="69" branch="false" />
+            <line number="20" hits="9" branch="false" />
+            <line number="21" hits="0" branch="false" />
+            <line number="24" hits="23" branch="false" />
+            <line number="25" hits="23" branch="false" />
+            <line number="26" hits="23" branch="false" />
+            <line number="27" hits="23" branch="false" />
+            <line number="28" hits="23" branch="false" />
+          </lines>
+        </class>
+        <class name="StoreWPF.Registration" filename="C:\Users\alexc\source\repos\StoreWPF\StoreWPF\Registration.xaml.cs" line-rate="0" branch-rate="0" complexity="1">
+          <methods>
+            <method name=".ctor" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="22" hits="0" branch="false" />
+                <line number="23" hits="0" branch="false" />
+                <line number="24" hits="0" branch="false" />
+                <line number="25" hits="0" branch="false" />
+              </lines>
+            </method>
+            <method name="ButtonRegSwap_Click" signature="(System.Object,System.Windows.RoutedEventArgs)" line-rate="0" branch-rate="1" complexity="NaN">
+              <lines>
+                <line number="28" hits="0" branch="false" />
+                <line number="29" hits="0" branch="false" />
+                <line number="30" hits="0" branch="false" />
+                <line number="31" hits="0" branch="false" />
+              </lines>
+            </method>
+            <method name="Window_Closed" signature="(System.Object,System.EventArgs)" line-rate="0" branch-rate="1" complexity="NaN">
+              <lines>
+                <line number="34" hits="0" branch="false" />
+                <line number="35" hits="0" branch="false" />
+                <line number="36" hits="0" branch="false" />
+                <line number="37" hits="0" branch="false" />
+              </lines>
+            </method>
+            <method name="RegistrationButton_Click" signature="(System.Object,System.Windows.RoutedEventArgs)" line-rate="0" branch-rate="0" complexity="NaN">
+              <lines>
+                <line number="40" hits="0" branch="false" />
+                <line number="41" hits="0" branch="false" />
+                <line number="42" hits="0" branch="false" />
+                <line number="43" hits="0" branch="true" condition-coverage="0% (0/2)" />
+                <line number="44" hits="0" branch="false" />
+                <line number="45" hits="0" branch="false" />
+                <line number="46" hits="0" branch="false" />
+                <line number="47" hits="0" branch="false" />
+                <line number="48" hits="0" branch="true" condition-coverage="0% (0/2)" />
+                <line number="49" hits="0" branch="false" />
+                <line number="50" hits="0" branch="false" />
+                <line number="51" hits="0" branch="false" />
+                <line number="52" hits="0" branch="false" />
+                <line number="53" hits="0" branch="true" condition-coverage="0% (0/2)" />
+                <line number="54" hits="0" branch="false" />
+                <line number="55" hits="0" branch="false" />
+                <line number="56" hits="0" branch="false" />
+                <line number="57" hits="0" branch="false" />
+                <line number="58" hits="0" branch="false" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="22" hits="0" branch="false" />
+            <line number="23" hits="0" branch="false" />
+            <line number="24" hits="0" branch="false" />
+            <line number="25" hits="0" branch="false" />
+            <line number="28" hits="0" branch="false" />
+            <line number="29" hits="0" branch="false" />
+            <line number="30" hits="0" branch="false" />
+            <line number="31" hits="0" branch="false" />
+            <line number="34" hits="0" branch="false" />
+            <line number="35" hits="0" branch="false" />
+            <line number="36" hits="0" branch="false" />
+            <line number="37" hits="0" branch="false" />
+            <line number="40" hits="0" branch="false" />
+            <line number="41" hits="0" branch="false" />
+            <line number="42" hits="0" branch="false" />
+            <line number="43" hits="0" branch="true" condition-coverage="0% (0/2)" />
+            <line number="44" hits="0" branch="false" />
+            <line number="45" hits="0" branch="false" />
+            <line number="46" hits="0" branch="false" />
+            <line number="47" hits="0" branch="false" />
+            <line number="48" hits="0" branch="true" condition-coverage="0% (0/2)" />
+            <line number="49" hits="0" branch="false" />
+            <line number="50" hits="0" branch="false" />
+            <line number="51" hits="0" branch="false" />
+            <line number="52" hits="0" branch="false" />
+            <line number="53" hits="0" branch="true" condition-coverage="0% (0/2)" />
+            <line number="54" hits="0" branch="false" />
+            <line number="55" hits="0" branch="false" />
+            <line number="56" hits="0" branch="false" />
+            <line number="57" hits="0" branch="false" />
+            <line number="58" hits="0" branch="false" />
+          </lines>
+        </class>
+        <class name="StoreWPF.Repository" filename="C:\Users\alexc\source\repos\StoreWPF\StoreWPF\Repository.cs" line-rate="0.961165048543689" branch-rate="0.692307692307692" complexity="6">
+          <methods>
+            <method name="WriteFileJson" signature="(System.String,System.String)" line-rate="1" branch-rate="0.5" complexity="NaN">
+              <lines>
+                <line number="28" hits="2" branch="false" />
+                <line number="29" hits="2" branch="false" />
+                <line number="30" hits="2" branch="true" condition-coverage="50% (1/2)" />
+                <line number="31" hits="2" branch="false" />
+                <line number="32" hits="2" branch="false" />
+                <line number="33" hits="2" branch="false" />
+                <line number="34" hits="2" branch="false" />
+                <line number="35" hits="2" branch="false" />
+                <line number="36" hits="2" branch="false" />
+                <line number="37" hits="2" branch="false" />
+                <line number="40" hits="2" branch="false" />
+              </lines>
+            </method>
+            <method name="ReadFileJson" signature="()" line-rate="1" branch-rate="0.5" complexity="4">
+              <lines>
+                <line number="42" hits="20" branch="false" />
+                <line number="43" hits="20" branch="false" />
+                <line number="44" hits="20" branch="true" condition-coverage="50% (1/2)" />
+                <line number="45" hits="20" branch="false" />
+                <line number="46" hits="20" branch="false" />
+                <line number="47" hits="20" branch="false" />
+                <line number="48" hits="20" branch="false" />
+                <line number="49" hits="20" branch="false" />
+                <line number="50" hits="20" branch="true" condition-coverage="50% (1/2)" />
+                <line number="51" hits="20" branch="false" />
+                <line number="52" hits="20" branch="false" />
+                <line number="53" hits="20" branch="false" />
+                <line number="54" hits="20" branch="false" />
+                <line number="55" hits="20" branch="false" />
+                <line number="56" hits="20" branch="true" condition-coverage="50% (1/2)" />
+                <line number="57" hits="20" branch="false" />
+                <line number="58" hits="20" branch="false" />
+                <line number="59" hits="20" branch="false" />
+                <line number="60" hits="20" branch="false" />
+                <line number="61" hits="20" branch="false" />
+              </lines>
+            </method>
+            <method name="RegAccount" signature="(System.String,System.String)" line-rate="1" branch-rate="1" complexity="NaN">
+              <lines>
+                <line number="63" hits="2" branch="false" />
+                <line number="64" hits="2" branch="false" />
+                <line number="65" hits="2" branch="false" />
+                <line number="66" hits="32" branch="false" />
+                <line number="67" hits="13" branch="false" />
+                <line number="68" hits="13" branch="true" condition-coverage="100% (2/2)" />
+                <line number="69" hits="4" branch="false" />
+                <line number="71" hits="4" branch="false" />
+                <line number="72" hits="4" branch="false" />
+                <line number="74" hits="9" branch="false" />
+                <line number="75" hits="9" branch="false" />
+                <line number="76" hits="2" branch="false" />
+                <line number="77" hits="2" branch="false" />
+              </lines>
+            </method>
+            <method name="AutAccount" signature="(System.String,System.String)" line-rate="0.904761904761905" branch-rate="0.833333333333333" complexity="NaN">
+              <lines>
+                <line number="79" hits="3" branch="false" />
+                <line number="80" hits="3" branch="false" />
+                <line number="81" hits="25" branch="false" />
+                <line number="82" hits="9" branch="false" />
+                <line number="83" hits="9" branch="true" condition-coverage="100% (4/4)" />
+                <line number="84" hits="2" branch="false" />
+                <line number="85" hits="2" branch="false" />
+                <line number="87" hits="2" branch="false" />
+                <line number="88" hits="2" branch="false" />
+                <line number="89" hits="2" branch="true" condition-coverage="100% (4/4)" />
+                <line number="90" hits="1" branch="false" />
+                <line number="91" hits="1" branch="false" />
+                <line number="92" hits="1" branch="false" />
+                <line number="93" hits="1" branch="false" />
+                <line number="95" hits="1" branch="false" />
+                <line number="96" hits="1" branch="false" />
+                <line number="99" hits="7" branch="false" />
+                <line number="100" hits="3" branch="true" condition-coverage="50% (2/4)" />
+                <line number="101" hits="0" branch="false" />
+                <line number="104" hits="0" branch="false" />
+                <line number="105" hits="3" branch="false" />
+              </lines>
+            </method>
+            <method name="WriteFileJsonProduct" signature="(System.String,System.String,System.String,System.Int32,System.Int32)" line-rate="1" branch-rate="0.5" complexity="NaN">
+              <lines>
+                <line number="108" hits="1" branch="false" />
+                <line number="109" hits="1" branch="false" />
+                <line number="110" hits="1" branch="true" condition-coverage="50% (1/2)" />
+                <line number="111" hits="1" branch="false" />
+                <line number="112" hits="1" branch="false" />
+                <line number="113" hits="1" branch="false" />
+                <line number="114" hits="1" branch="false" />
+                <line number="115" hits="1" branch="false" />
+                <line number="116" hits="1" branch="false" />
+                <line number="118" hits="1" branch="false" />
+              </lines>
+            </method>
+            <method name="WriteFileJsonProductInCart" signature="(System.Int32,System.String,System.String,System.String,System.Int32,System.Int32,System.Int32)" line-rate="1" branch-rate="0.5" complexity="NaN">
+              <lines>
+                <line number="121" hits="1" branch="false" />
+                <line number="122" hits="1" branch="false" />
+                <line number="123" hits="1" branch="true" condition-coverage="50% (1/2)" />
+                <line number="124" hits="1" branch="false" />
+                <line number="125" hits="1" branch="false" />
+                <line number="126" hits="1" branch="false" />
+                <line number="127" hits="1" branch="false" />
+                <line number="128" hits="1" branch="false" />
+                <line number="129" hits="1" branch="false" />
+                <line number="130" hits="1" branch="false" />
+                <line number="131" hits="1" branch="false" />
+              </lines>
+            </method>
+            <method name="ReloadFileJsonProduct" signature="(System.Collections.Generic.List`1&lt;StoreWPF.Product&gt;)" line-rate="1" branch-rate="1" complexity="NaN">
+              <lines>
+                <line number="134" hits="2" branch="false" />
+                <line number="135" hits="2" branch="false" />
+                <line number="136" hits="2" branch="false" />
+                <line number="139" hits="2" branch="false" />
+              </lines>
+            </method>
+            <method name="ReloadFileJsonProductInCart" signature="(System.Collections.Generic.List`1&lt;StoreWPF.ProductInCart&gt;)" line-rate="1" branch-rate="1" complexity="NaN">
+              <lines>
+                <line number="142" hits="1" branch="false" />
+                <line number="143" hits="1" branch="false" />
+                <line number="144" hits="1" branch="false" />
+                <line number="145" hits="1" branch="false" />
+                <line number="146" hits="1" branch="false" />
+              </lines>
+            </method>
+            <method name="ReloadListView" signature="(System.Windows.Controls.ListView)" line-rate="0" branch-rate="1" complexity="NaN">
+              <lines>
+                <line number="148" hits="0" branch="false" />
+                <line number="158" hits="0" branch="false" />
+              </lines>
+            </method>
+            <method name=".ctor" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="21" hits="26" branch="false" />
+                <line number="22" hits="1" branch="false" />
+                <line number="23" hits="26" branch="false" />
+              </lines>
+            </method>
+            <method name=".cctor" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="18" hits="1" branch="false" />
+                <line number="19" hits="1" branch="false" />
+                <line number="20" hits="1" branch="false" />
+                <line number="21" hits="26" branch="false" />
+                <line number="22" hits="1" branch="false" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="18" hits="1" branch="false" />
+            <line number="19" hits="1" branch="false" />
+            <line number="20" hits="1" branch="false" />
+            <line number="21" hits="26" branch="false" />
+            <line number="22" hits="1" branch="false" />
+            <line number="23" hits="26" branch="false" />
+            <line number="28" hits="2" branch="false" />
+            <line number="29" hits="2" branch="false" />
+            <line number="30" hits="2" branch="true" condition-coverage="50% (1/2)" />
+            <line number="31" hits="2" branch="false" />
+            <line number="32" hits="2" branch="false" />
+            <line number="33" hits="2" branch="false" />
+            <line number="34" hits="2" branch="false" />
+            <line number="35" hits="2" branch="false" />
+            <line number="36" hits="2" branch="false" />
+            <line number="37" hits="2" branch="false" />
+            <line number="40" hits="2" branch="false" />
+            <line number="42" hits="20" branch="false" />
+            <line number="43" hits="20" branch="false" />
+            <line number="44" hits="20" branch="true" condition-coverage="50% (1/2)" />
+            <line number="45" hits="20" branch="false" />
+            <line number="46" hits="20" branch="false" />
+            <line number="47" hits="20" branch="false" />
+            <line number="48" hits="20" branch="false" />
+            <line number="49" hits="20" branch="false" />
+            <line number="50" hits="20" branch="true" condition-coverage="50% (1/2)" />
+            <line number="51" hits="20" branch="false" />
+            <line number="52" hits="20" branch="false" />
+            <line number="53" hits="20" branch="false" />
+            <line number="54" hits="20" branch="false" />
+            <line number="55" hits="20" branch="false" />
+            <line number="56" hits="20" branch="true" condition-coverage="50% (1/2)" />
+            <line number="57" hits="20" branch="false" />
+            <line number="58" hits="20" branch="false" />
+            <line number="59" hits="20" branch="false" />
+            <line number="60" hits="20" branch="false" />
+            <line number="61" hits="20" branch="false" />
+            <line number="63" hits="2" branch="false" />
+            <line number="64" hits="2" branch="false" />
+            <line number="65" hits="2" branch="false" />
+            <line number="66" hits="32" branch="false" />
+            <line number="67" hits="13" branch="false" />
+            <line number="68" hits="13" branch="true" condition-coverage="100% (2/2)" />
+            <line number="69" hits="4" branch="false" />
+            <line number="71" hits="4" branch="false" />
+            <line number="72" hits="4" branch="false" />
+            <line number="74" hits="9" branch="false" />
+            <line number="75" hits="9" branch="false" />
+            <line number="76" hits="2" branch="false" />
+            <line number="77" hits="2" branch="false" />
+            <line number="79" hits="3" branch="false" />
+            <line number="80" hits="3" branch="false" />
+            <line number="81" hits="25" branch="false" />
+            <line number="82" hits="9" branch="false" />
+            <line number="83" hits="9" branch="true" condition-coverage="100% (4/4)" />
+            <line number="84" hits="2" branch="false" />
+            <line number="85" hits="2" branch="false" />
+            <line number="87" hits="2" branch="false" />
+            <line number="88" hits="2" branch="false" />
+            <line number="89" hits="2" branch="true" condition-coverage="100% (4/4)" />
+            <line number="90" hits="1" branch="false" />
+            <line number="91" hits="1" branch="false" />
+            <line number="92" hits="1" branch="false" />
+            <line number="93" hits="1" branch="false" />
+            <line number="95" hits="1" branch="false" />
+            <line number="96" hits="1" branch="false" />
+            <line number="99" hits="7" branch="false" />
+            <line number="100" hits="3" branch="true" condition-coverage="50% (2/4)" />
+            <line number="101" hits="0" branch="false" />
+            <line number="104" hits="0" branch="false" />
+            <line number="105" hits="3" branch="false" />
+            <line number="108" hits="1" branch="false" />
+            <line number="109" hits="1" branch="false" />
+            <line number="110" hits="1" branch="true" condition-coverage="50% (1/2)" />
+            <line number="111" hits="1" branch="false" />
+            <line number="112" hits="1" branch="false" />
+            <line number="113" hits="1" branch="false" />
+            <line number="114" hits="1" branch="false" />
+            <line number="115" hits="1" branch="false" />
+            <line number="116" hits="1" branch="false" />
+            <line number="118" hits="1" branch="false" />
+            <line number="121" hits="1" branch="false" />
+            <line number="122" hits="1" branch="false" />
+            <line number="123" hits="1" branch="true" condition-coverage="50% (1/2)" />
+            <line number="124" hits="1" branch="false" />
+            <line number="125" hits="1" branch="false" />
+            <line number="126" hits="1" branch="false" />
+            <line number="127" hits="1" branch="false" />
+            <line number="128" hits="1" branch="false" />
+            <line number="129" hits="1" branch="false" />
+            <line number="130" hits="1" branch="false" />
+            <line number="131" hits="1" branch="false" />
+            <line number="134" hits="2" branch="false" />
+            <line number="135" hits="2" branch="false" />
+            <line number="136" hits="2" branch="false" />
+            <line number="139" hits="2" branch="false" />
+            <line number="142" hits="1" branch="false" />
+            <line number="143" hits="1" branch="false" />
+            <line number="144" hits="1" branch="false" />
+            <line number="145" hits="1" branch="false" />
+            <line number="146" hits="1" branch="false" />
+            <line number="148" hits="0" branch="false" />
+            <line number="158" hits="0" branch="false" />
+          </lines>
+        </class>
+        <class name="StoreWPF.User" filename="C:\Users\alexc\source\repos\StoreWPF\StoreWPF\User.cs" line-rate="1" branch-rate="1" complexity="NaN">
+          <methods>
+            <method name="Id" signature="()" line-rate="1" branch-rate="1" complexity="NaN">
+              <lines>
+                <line number="19" hits="60" branch="false" />
+              </lines>
+            </method>
+            <method name="Id" signature="(System.Int32)" line-rate="1" branch-rate="1" complexity="NaN">
+              <lines>
+                <line number="20" hits="516" branch="false" />
+              </lines>
+            </method>
+            <method name="Login" signature="()" line-rate="1" branch-rate="1" complexity="NaN">
+              <lines>
+                <line number="26" hits="144" branch="false" />
+              </lines>
+            </method>
+            <method name="Login" signature="(System.String)" line-rate="1" branch-rate="1" complexity="NaN">
+              <lines>
+                <line number="27" hits="489" branch="false" />
+              </lines>
+            </method>
+            <method name="Password" signature="()" line-rate="1" branch-rate="1" complexity="NaN">
+              <lines>
+                <line number="32" hits="78" branch="false" />
+              </lines>
+            </method>
+            <method name="Password" signature="(System.String)" line-rate="1" branch-rate="1" complexity="NaN">
+              <lines>
+                <line number="33" hits="489" branch="false" />
+              </lines>
+            </method>
+            <method name=".ctor" signature="(System.Int32,System.String,System.String)" line-rate="1" branch-rate="1" complexity="NaN">
+              <lines>
+                <line number="35" hits="163" branch="false" />
+                <line number="36" hits="163" branch="false" />
+                <line number="37" hits="163" branch="false" />
+                <line number="38" hits="163" branch="false" />
+                <line number="39" hits="163" branch="false" />
+                <line number="40" hits="163" branch="false" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="19" hits="60" branch="false" />
+            <line number="20" hits="516" branch="false" />
+            <line number="26" hits="144" branch="false" />
+            <line number="27" hits="489" branch="false" />
+            <line number="32" hits="78" branch="false" />
+            <line number="33" hits="489" branch="false" />
+            <line number="35" hits="163" branch="false" />
+            <line number="36" hits="163" branch="false" />
+            <line number="37" hits="163" branch="false" />
+            <line number="38" hits="163" branch="false" />
+            <line number="39" hits="163" branch="false" />
+            <line number="40" hits="163" branch="false" />
+          </lines>
+        </class>
+        <class name="StoreWPF.UserControlStore" filename="C:\Users\alexc\source\repos\StoreWPF\StoreWPF\UserControlStore.xaml.cs" line-rate="0.25" branch-rate="0" complexity="NaN">
+          <methods>
+            <method name="ListView" signature="()" line-rate="0" branch-rate="1" complexity="NaN">
+              <lines>
+                <line number="23" hits="0" branch="false" />
+              </lines>
+            </method>
+            <method name="ListView" signature="(System.Windows.Controls.ListView)" line-rate="0" branch-rate="1" complexity="NaN">
+              <lines>
+                <line number="23" hits="0" branch="false" />
+              </lines>
+            </method>
+            <method name="Products" signature="()" line-rate="0" branch-rate="1" complexity="NaN">
+              <lines>
+                <line number="28" hits="0" branch="false" />
+              </lines>
+            </method>
+            <method name="Products" signature="(StoreWPF.Product)" line-rate="1" branch-rate="1" complexity="NaN">
+              <lines>
+                <line number="29" hits="36" branch="false" />
+                <line number="30" hits="12" branch="false" />
+                <line number="31" hits="12" branch="false" />
+                <line number="32" hits="24" branch="false" />
+              </lines>
+            </method>
+            <method name=".ctor" signature="(StoreWPF.Product)" line-rate="0.909090909090909" branch-rate="1" complexity="NaN">
+              <lines>
+                <line number="24" hits="12" branch="false" />
+                <line number="28" hits="0" branch="false" />
+                <line number="29" hits="36" branch="false" />
+                <line number="30" hits="12" branch="false" />
+                <line number="31" hits="12" branch="false" />
+                <line number="32" hits="24" branch="false" />
+                <line number="33" hits="12" branch="false" />
+                <line number="34" hits="12" branch="false" />
+                <line number="35" hits="12" branch="false" />
+                <line number="36" hits="12" branch="false" />
+                <line number="37" hits="12" branch="false" />
+              </lines>
+            </method>
+            <method name="buttonBuy_Click" signature="(System.Object,System.Windows.RoutedEventArgs)" line-rate="0" branch-rate="1" complexity="NaN">
+              <lines>
+                <line number="40" hits="0" branch="false" />
+                <line number="41" hits="0" branch="false" />
+                <line number="42" hits="0" branch="false" />
+                <line number="43" hits="0" branch="false" />
+                <line number="44" hits="0" branch="false" />
+                <line number="45" hits="0" branch="false" />
+                <line number="46" hits="0" branch="false" />
+              </lines>
+            </method>
+            <method name="buttonDelete_Click" signature="(System.Object,System.Windows.RoutedEventArgs)" line-rate="0" branch-rate="0" complexity="NaN">
+              <lines>
+                <line number="49" hits="0" branch="false" />
+                <line number="50" hits="0" branch="false" />
+                <line number="51" hits="0" branch="false" />
+                <line number="52" hits="0" branch="false" />
+                <line number="53" hits="0" branch="true" condition-coverage="0% (0/2)" />
+                <line number="54" hits="0" branch="false" />
+                <line number="55" hits="0" branch="false" />
+                <line number="56" hits="0" branch="false" />
+                <line number="57" hits="0" branch="true" condition-coverage="0% (0/2)" />
+                <line number="58" hits="0" branch="false" />
+                <line number="59" hits="0" branch="false" />
+                <line number="60" hits="0" branch="false" />
+                <line number="61" hits="0" branch="true" condition-coverage="0% (0/2)" />
+                <line number="62" hits="0" branch="false" />
+                <line number="63" hits="0" branch="false" />
+                <line number="64" hits="0" branch="false" />
+                <line number="65" hits="0" branch="false" />
+                <line number="66" hits="0" branch="false" />
+                <line number="67" hits="0" branch="false" />
+              </lines>
+            </method>
+            <method name="buttonPlusProduct_Click" signature="(System.Object,System.Windows.RoutedEventArgs)" line-rate="0" branch-rate="1" complexity="NaN">
+              <lines>
+                <line number="70" hits="0" branch="false" />
+                <line number="72" hits="0" branch="false" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="23" hits="0" branch="false" />
+            <line number="24" hits="12" branch="false" />
+            <line number="28" hits="0" branch="false" />
+            <line number="29" hits="36" branch="false" />
+            <line number="30" hits="12" branch="false" />
+            <line number="31" hits="12" branch="false" />
+            <line number="32" hits="24" branch="false" />
+            <line number="33" hits="12" branch="false" />
+            <line number="34" hits="12" branch="false" />
+            <line number="35" hits="12" branch="false" />
+            <line number="36" hits="12" branch="false" />
+            <line number="37" hits="12" branch="false" />
+            <line number="40" hits="0" branch="false" />
+            <line number="41" hits="0" branch="false" />
+            <line number="42" hits="0" branch="false" />
+            <line number="43" hits="0" branch="false" />
+            <line number="44" hits="0" branch="false" />
+            <line number="45" hits="0" branch="false" />
+            <line number="46" hits="0" branch="false" />
+            <line number="49" hits="0" branch="false" />
+            <line number="50" hits="0" branch="false" />
+            <line number="51" hits="0" branch="false" />
+            <line number="52" hits="0" branch="false" />
+            <line number="53" hits="0" branch="true" condition-coverage="0% (0/2)" />
+            <line number="54" hits="0" branch="false" />
+            <line number="55" hits="0" branch="false" />
+            <line number="56" hits="0" branch="false" />
+            <line number="57" hits="0" branch="true" condition-coverage="0% (0/2)" />
+            <line number="58" hits="0" branch="false" />
+            <line number="59" hits="0" branch="false" />
+            <line number="60" hits="0" branch="false" />
+            <line number="61" hits="0" branch="true" condition-coverage="0% (0/2)" />
+            <line number="62" hits="0" branch="false" />
+            <line number="63" hits="0" branch="false" />
+            <line number="64" hits="0" branch="false" />
+            <line number="65" hits="0" branch="false" />
+            <line number="66" hits="0" branch="false" />
+            <line number="67" hits="0" branch="false" />
+            <line number="70" hits="0" branch="false" />
+            <line number="72" hits="0" branch="false" />
+          </lines>
+        </class>
+        <class name="StoreWPF.WorckerForm" filename="C:\Users\alexc\source\repos\StoreWPF\StoreWPF\WorckerForm.xaml.cs" line-rate="0.172413793103448" branch-rate="0" complexity="3">
+          <methods>
+            <method name=".ctor" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="26" hits="1" branch="false" />
+                <line number="28" hits="1" branch="false" />
+                <line number="29" hits="1" branch="false" />
+                <line number="30" hits="1" branch="false" />
+                <line number="31" hits="1" branch="false" />
+                <line number="32" hits="1" branch="false" />
+              </lines>
+            </method>
+            <method name="buttonExitWorker_Click" signature="(System.Object,System.Windows.RoutedEventArgs)" line-rate="0" branch-rate="1" complexity="NaN">
+              <lines>
+                <line number="35" hits="0" branch="false" />
+                <line number="36" hits="0" branch="false" />
+                <line number="37" hits="0" branch="false" />
+              </lines>
+            </method>
+            <method name="Window_Closed" signature="(System.Object,System.EventArgs)" line-rate="0" branch-rate="1" complexity="NaN">
+              <lines>
+                <line number="40" hits="0" branch="false" />
+                <line number="41" hits="0" branch="false" />
+                <line number="42" hits="0" branch="false" />
+                <line number="43" hits="0" branch="false" />
+                <line number="44" hits="0" branch="false" />
+                <line number="45" hits="0" branch="false" />
+              </lines>
+            </method>
+            <method name="buttonAddProduct_Click" signature="(System.Object,System.Windows.RoutedEventArgs)" line-rate="0" branch-rate="0" complexity="NaN">
+              <lines>
+                <line number="48" hits="0" branch="false" />
+                <line number="49" hits="0" branch="true" condition-coverage="0% (0/6)" />
+                <line number="50" hits="0" branch="false" />
+                <line number="51" hits="0" branch="true" condition-coverage="0% (0/2)" />
+                <line number="52" hits="0" branch="false" />
+                <line number="53" hits="0" branch="false" />
+                <line number="54" hits="0" branch="false" />
+                <line number="56" hits="0" branch="false" />
+                <line number="57" hits="0" branch="false" />
+                <line number="58" hits="0" branch="false" />
+                <line number="59" hits="0" branch="false" />
+                <line number="60" hits="0" branch="false" />
+                <line number="62" hits="0" branch="false" />
+                <line number="63" hits="0" branch="false" />
+                <line number="64" hits="0" branch="false" />
+                <line number="65" hits="0" branch="false" />
+                <line number="66" hits="0" branch="false" />
+                <line number="68" hits="0" branch="false" />
+                <line number="69" hits="0" branch="false" />
+                <line number="70" hits="0" branch="false" />
+                <line number="72" hits="0" branch="false" />
+              </lines>
+            </method>
+            <method name="buttonAddImageProduct_Click" signature="(System.Object,System.Windows.RoutedEventArgs)" line-rate="0" branch-rate="0" complexity="NaN">
+              <lines>
+                <line number="75" hits="0" branch="false" />
+                <line number="76" hits="0" branch="false" />
+                <line number="77" hits="0" branch="true" condition-coverage="0% (0/2)" />
+                <line number="78" hits="0" branch="false" />
+                <line number="79" hits="0" branch="false" />
+                <line number="80" hits="0" branch="false" />
+                <line number="81" hits="0" branch="false" />
+                <line number="82" hits="0" branch="false" />
+                <line number="83" hits="0" branch="false" />
+              </lines>
+            </method>
+            <method name="buttonDeleteProduct_Click" signature="(System.Object,System.Windows.RoutedEventArgs)" line-rate="0" branch-rate="0" complexity="NaN">
+              <lines>
+                <line number="86" hits="0" branch="false" />
+                <line number="87" hits="0" branch="false" />
+                <line number="88" hits="0" branch="true" condition-coverage="0% (0/2)" />
+                <line number="89" hits="0" branch="false" />
+                <line number="90" hits="0" branch="false" />
+                <line number="91" hits="0" branch="false" />
+                <line number="93" hits="0" branch="false" />
+                <line number="94" hits="0" branch="false" />
+                <line number="95" hits="0" branch="false" />
+                <line number="96" hits="0" branch="false" />
+                <line number="97" hits="0" branch="false" />
+                <line number="98" hits="0" branch="false" />
+              </lines>
+            </method>
+            <method name="ShowDisplay" signature="()" line-rate="1" branch-rate="1" complexity="2">
+              <lines>
+                <line number="100" hits="1" branch="false" />
+                <line number="101" hits="1" branch="false" />
+                <line number="102" hits="1" branch="false" />
+                <line number="103" hits="15" branch="false" />
+                <line number="104" hits="6" branch="false" />
+                <line number="105" hits="6" branch="false" />
+                <line number="106" hits="6" branch="false" />
+                <line number="107" hits="6" branch="false" />
+                <line number="108" hits="1" branch="false" />
+              </lines>
+            </method>
+            <method name="buttonEditProduct_Click" signature="(System.Object,System.Windows.RoutedEventArgs)" line-rate="0" branch-rate="0" complexity="NaN">
+              <lines>
+                <line number="111" hits="0" branch="false" />
+                <line number="112" hits="0" branch="false" />
+                <line number="113" hits="0" branch="true" condition-coverage="0% (0/2)" />
+                <line number="114" hits="0" branch="false" />
+                <line number="115" hits="0" branch="false" />
+                <line number="116" hits="0" branch="false" />
+                <line number="118" hits="0" branch="true" condition-coverage="0% (0/6)" />
+                <line number="119" hits="0" branch="false" />
+                <line number="120" hits="0" branch="false" />
+                <line number="121" hits="0" branch="false" />
+                <line number="123" hits="0" branch="true" condition-coverage="0% (0/2)" />
+                <line number="124" hits="0" branch="false" />
+                <line number="125" hits="0" branch="false" />
+                <line number="126" hits="0" branch="false" />
+                <line number="127" hits="0" branch="false" />
+                <line number="128" hits="0" branch="false" />
+                <line number="129" hits="0" branch="false" />
+                <line number="130" hits="0" branch="false" />
+                <line number="131" hits="0" branch="false" />
+                <line number="132" hits="0" branch="false" />
+                <line number="133" hits="0" branch="false" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="26" hits="1" branch="false" />
+            <line number="28" hits="1" branch="false" />
+            <line number="29" hits="1" branch="false" />
+            <line number="30" hits="1" branch="false" />
+            <line number="31" hits="1" branch="false" />
+            <line number="32" hits="1" branch="false" />
+            <line number="35" hits="0" branch="false" />
+            <line number="36" hits="0" branch="false" />
+            <line number="37" hits="0" branch="false" />
+            <line number="40" hits="0" branch="false" />
+            <line number="41" hits="0" branch="false" />
+            <line number="42" hits="0" branch="false" />
+            <line number="43" hits="0" branch="false" />
+            <line number="44" hits="0" branch="false" />
+            <line number="45" hits="0" branch="false" />
+            <line number="48" hits="0" branch="false" />
+            <line number="49" hits="0" branch="true" condition-coverage="0% (0/6)" />
+            <line number="50" hits="0" branch="false" />
+            <line number="51" hits="0" branch="true" condition-coverage="0% (0/2)" />
+            <line number="52" hits="0" branch="false" />
+            <line number="53" hits="0" branch="false" />
+            <line number="54" hits="0" branch="false" />
+            <line number="56" hits="0" branch="false" />
+            <line number="57" hits="0" branch="false" />
+            <line number="58" hits="0" branch="false" />
+            <line number="59" hits="0" branch="false" />
+            <line number="60" hits="0" branch="false" />
+            <line number="62" hits="0" branch="false" />
+            <line number="63" hits="0" branch="false" />
+            <line number="64" hits="0" branch="false" />
+            <line number="65" hits="0" branch="false" />
+            <line number="66" hits="0" branch="false" />
+            <line number="68" hits="0" branch="false" />
+            <line number="69" hits="0" branch="false" />
+            <line number="70" hits="0" branch="false" />
+            <line number="72" hits="0" branch="false" />
+            <line number="75" hits="0" branch="false" />
+            <line number="76" hits="0" branch="false" />
+            <line number="77" hits="0" branch="true" condition-coverage="0% (0/2)" />
+            <line number="78" hits="0" branch="false" />
+            <line number="79" hits="0" branch="false" />
+            <line number="80" hits="0" branch="false" />
+            <line number="81" hits="0" branch="false" />
+            <line number="82" hits="0" branch="false" />
+            <line number="83" hits="0" branch="false" />
+            <line number="86" hits="0" branch="false" />
+            <line number="87" hits="0" branch="false" />
+            <line number="88" hits="0" branch="true" condition-coverage="0% (0/2)" />
+            <line number="89" hits="0" branch="false" />
+            <line number="90" hits="0" branch="false" />
+            <line number="91" hits="0" branch="false" />
+            <line number="93" hits="0" branch="false" />
+            <line number="94" hits="0" branch="false" />
+            <line number="95" hits="0" branch="false" />
+            <line number="96" hits="0" branch="false" />
+            <line number="97" hits="0" branch="false" />
+            <line number="98" hits="0" branch="false" />
+            <line number="100" hits="1" branch="false" />
+            <line number="101" hits="1" branch="false" />
+            <line number="102" hits="1" branch="false" />
+            <line number="103" hits="15" branch="false" />
+            <line number="104" hits="6" branch="false" />
+            <line number="105" hits="6" branch="false" />
+            <line number="106" hits="6" branch="false" />
+            <line number="107" hits="6" branch="false" />
+            <line number="108" hits="1" branch="false" />
+            <line number="111" hits="0" branch="false" />
+            <line number="112" hits="0" branch="false" />
+            <line number="113" hits="0" branch="true" condition-coverage="0% (0/2)" />
+            <line number="114" hits="0" branch="false" />
+            <line number="115" hits="0" branch="false" />
+            <line number="116" hits="0" branch="false" />
+            <line number="118" hits="0" branch="true" condition-coverage="0% (0/6)" />
+            <line number="119" hits="0" branch="false" />
+            <line number="120" hits="0" branch="false" />
+            <line number="121" hits="0" branch="false" />
+            <line number="123" hits="0" branch="true" condition-coverage="0% (0/2)" />
+            <line number="124" hits="0" branch="false" />
+            <line number="125" hits="0" branch="false" />
+            <line number="126" hits="0" branch="false" />
+            <line number="127" hits="0" branch="false" />
+            <line number="128" hits="0" branch="false" />
+            <line number="129" hits="0" branch="false" />
+            <line number="130" hits="0" branch="false" />
+            <line number="131" hits="0" branch="false" />
+            <line number="132" hits="0" branch="false" />
+            <line number="133" hits="0" branch="false" />
+          </lines>
+        </class>
+      </classes>
+    </package>
+    <package name="TestStore" line-rate="1" branch-rate="0.5" complexity="17">
+      <classes>
+        <class name="TestStore.TestAuthorizationAndRegistration" filename="C:\Users\alexc\source\repos\StoreWPF\TestStore\TestAuthorizationAndRegistration.cs" line-rate="1" branch-rate="0.5" complexity="12">
+          <methods>
+            <method name="TestEnterUserInAccount" signature="()" line-rate="1" branch-rate="0.5" complexity="2">
+              <lines>
+                <line number="13" hits="1" branch="false" />
+                <line number="15" hits="1" branch="false" />
+                <line number="16" hits="1" branch="false" />
+                <line number="18" hits="1" branch="false" />
+                <line number="19" hits="2" branch="false" />
+                <line number="20" hits="1" branch="false" />
+                <line number="21" hits="1" branch="true" condition-coverage="50% (1/2)" />
+                <line number="23" hits="1" branch="false" />
+                <line number="24" hits="1" branch="false" />
+              </lines>
+            </method>
+            <method name="TestEnterAdminInAccount" signature="()" line-rate="1" branch-rate="0.5" complexity="2">
+              <lines>
+                <line number="27" hits="1" branch="false" />
+                <line number="29" hits="1" branch="false" />
+                <line number="30" hits="1" branch="false" />
+                <line number="32" hits="1" branch="false" />
+                <line number="33" hits="2" branch="false" />
+                <line number="34" hits="1" branch="false" />
+                <line number="35" hits="1" branch="true" condition-coverage="50% (1/2)" />
+                <line number="37" hits="1" branch="false" />
+                <line number="38" hits="1" branch="false" />
+              </lines>
+            </method>
+            <method name="CheckEnterInAccauntNotRightLogin" signature="()" line-rate="1" branch-rate="0.5" complexity="3">
+              <lines>
+                <line number="41" hits="1" branch="false" />
+                <line number="43" hits="1" branch="false" />
+                <line number="44" hits="1" branch="false" />
+                <line number="46" hits="1" branch="false" />
+                <line number="47" hits="3" branch="false" />
+                <line number="48" hits="1" branch="true" condition-coverage="50% (2/4)" />
+                <line number="49" hits="1" branch="false" />
+                <line number="51" hits="1" branch="false" />
+                <line number="52" hits="1" branch="false" />
+              </lines>
+            </method>
+            <method name="TestRegistrationUser" signature="()" line-rate="1" branch-rate="0.5" complexity="3">
+              <lines>
+                <line number="55" hits="1" branch="false" />
+                <line number="57" hits="1" branch="false" />
+                <line number="59" hits="1" branch="false" />
+                <line number="60" hits="3" branch="false" />
+                <line number="61" hits="1" branch="false" />
+                <line number="62" hits="1" branch="false" />
+                <line number="63" hits="1" branch="true" condition-coverage="50% (2/4)" />
+                <line number="64" hits="1" branch="false" />
+                <line number="66" hits="1" branch="false" />
+                <line number="67" hits="1" branch="false" />
+              </lines>
+            </method>
+            <method name="TestRegAccountError" signature="()" line-rate="1" branch-rate="0.5" complexity="2">
+              <lines>
+                <line number="71" hits="1" branch="false" />
+                <line number="73" hits="1" branch="false" />
+                <line number="74" hits="1" branch="false" />
+                <line number="75" hits="2" branch="false" />
+                <line number="76" hits="1" branch="true" condition-coverage="50% (1/2)" />
+                <line number="78" hits="1" branch="false" />
+                <line number="79" hits="1" branch="false" />
+                <line number="81" hits="1" branch="false" />
+                <line number="82" hits="1" branch="false" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="13" hits="1" branch="false" />
+            <line number="15" hits="1" branch="false" />
+            <line number="16" hits="1" branch="false" />
+            <line number="18" hits="1" branch="false" />
+            <line number="19" hits="2" branch="false" />
+            <line number="20" hits="1" branch="false" />
+            <line number="21" hits="1" branch="true" condition-coverage="50% (1/2)" />
+            <line number="23" hits="1" branch="false" />
+            <line number="24" hits="1" branch="false" />
+            <line number="27" hits="1" branch="false" />
+            <line number="29" hits="1" branch="false" />
+            <line number="30" hits="1" branch="false" />
+            <line number="32" hits="1" branch="false" />
+            <line number="33" hits="2" branch="false" />
+            <line number="34" hits="1" branch="false" />
+            <line number="35" hits="1" branch="true" condition-coverage="50% (1/2)" />
+            <line number="37" hits="1" branch="false" />
+            <line number="38" hits="1" branch="false" />
+            <line number="41" hits="1" branch="false" />
+            <line number="43" hits="1" branch="false" />
+            <line number="44" hits="1" branch="false" />
+            <line number="46" hits="1" branch="false" />
+            <line number="47" hits="3" branch="false" />
+            <line number="48" hits="1" branch="true" condition-coverage="50% (2/4)" />
+            <line number="49" hits="1" branch="false" />
+            <line number="51" hits="1" branch="false" />
+            <line number="52" hits="1" branch="false" />
+            <line number="55" hits="1" branch="false" />
+            <line number="57" hits="1" branch="false" />
+            <line number="59" hits="1" branch="false" />
+            <line number="60" hits="3" branch="false" />
+            <line number="61" hits="1" branch="false" />
+            <line number="62" hits="1" branch="false" />
+            <line number="63" hits="1" branch="true" condition-coverage="50% (2/4)" />
+            <line number="64" hits="1" branch="false" />
+            <line number="66" hits="1" branch="false" />
+            <line number="67" hits="1" branch="false" />
+            <line number="71" hits="1" branch="false" />
+            <line number="73" hits="1" branch="false" />
+            <line number="74" hits="1" branch="false" />
+            <line number="75" hits="2" branch="false" />
+            <line number="76" hits="1" branch="true" condition-coverage="50% (1/2)" />
+            <line number="78" hits="1" branch="false" />
+            <line number="79" hits="1" branch="false" />
+            <line number="81" hits="1" branch="false" />
+            <line number="82" hits="1" branch="false" />
+          </lines>
+        </class>
+        <class name="TestStore.TestProduct" filename="C:\Users\alexc\source\repos\StoreWPF\TestStore\TestProduct.cs" line-rate="1" branch-rate="1" complexity="3">
+          <methods>
+            <method name="TestAddProductInAdminAccaunt" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="12" hits="1" branch="false" />
+                <line number="14" hits="1" branch="false" />
+                <line number="16" hits="1" branch="false" />
+                <line number="17" hits="1" branch="false" />
+                <line number="19" hits="1" branch="false" />
+              </lines>
+            </method>
+            <method name="TestDeleteProductInAdminAccaunt" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="22" hits="1" branch="false" />
+                <line number="24" hits="1" branch="false" />
+                <line number="26" hits="1" branch="false" />
+                <line number="27" hits="1" branch="false" />
+                <line number="28" hits="1" branch="false" />
+                <line number="29" hits="1" branch="false" />
+                <line number="30" hits="1" branch="false" />
+                <line number="32" hits="1" branch="false" />
+              </lines>
+            </method>
+            <method name="TestEditProductInAdminAccaunt" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="35" hits="1" branch="false" />
+                <line number="37" hits="1" branch="false" />
+                <line number="39" hits="1" branch="false" />
+                <line number="40" hits="1" branch="false" />
+                <line number="41" hits="1" branch="false" />
+                <line number="42" hits="1" branch="false" />
+                <line number="43" hits="1" branch="false" />
+                <line number="45" hits="1" branch="false" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="12" hits="1" branch="false" />
+            <line number="14" hits="1" branch="false" />
+            <line number="16" hits="1" branch="false" />
+            <line number="17" hits="1" branch="false" />
+            <line number="19" hits="1" branch="false" />
+            <line number="22" hits="1" branch="false" />
+            <line number="24" hits="1" branch="false" />
+            <line number="26" hits="1" branch="false" />
+            <line number="27" hits="1" branch="false" />
+            <line number="28" hits="1" branch="false" />
+            <line number="29" hits="1" branch="false" />
+            <line number="30" hits="1" branch="false" />
+            <line number="32" hits="1" branch="false" />
+            <line number="35" hits="1" branch="false" />
+            <line number="37" hits="1" branch="false" />
+            <line number="39" hits="1" branch="false" />
+            <line number="40" hits="1" branch="false" />
+            <line number="41" hits="1" branch="false" />
+            <line number="42" hits="1" branch="false" />
+            <line number="43" hits="1" branch="false" />
+            <line number="45" hits="1" branch="false" />
+          </lines>
+        </class>
+        <class name="TestStore.TestProductInCart" filename="C:\Users\alexc\source\repos\StoreWPF\TestStore\TestProductInCart.cs" line-rate="1" branch-rate="1" complexity="2">
+          <methods>
+            <method name="TestAddProductInCart" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="12" hits="1" branch="false" />
+                <line number="14" hits="1" branch="false" />
+                <line number="16" hits="1" branch="false" />
+                <line number="18" hits="1" branch="false" />
+              </lines>
+            </method>
+            <method name="TestRemoveProductInCart" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="21" hits="1" branch="false" />
+                <line number="23" hits="1" branch="false" />
+                <line number="25" hits="1" branch="false" />
+                <line number="26" hits="1" branch="false" />
+                <line number="27" hits="1" branch="false" />
+                <line number="28" hits="1" branch="false" />
+                <line number="30" hits="1" branch="false" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="12" hits="1" branch="false" />
+            <line number="14" hits="1" branch="false" />
+            <line number="16" hits="1" branch="false" />
+            <line number="18" hits="1" branch="false" />
+            <line number="21" hits="1" branch="false" />
+            <line number="23" hits="1" branch="false" />
+            <line number="25" hits="1" branch="false" />
+            <line number="26" hits="1" branch="false" />
+            <line number="27" hits="1" branch="false" />
+            <line number="28" hits="1" branch="false" />
+            <line number="30" hits="1" branch="false" />
+          </lines>
+        </class>
+      </classes>
+    </package>
+  </packages>
+</coverage>
