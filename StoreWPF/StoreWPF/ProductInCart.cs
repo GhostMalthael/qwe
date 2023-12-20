@@ -6,8 +6,9 @@ using System.Threading.Tasks;
 
 namespace StoreWPF
 {
-    public class ProductInCart : Product
+    public class ProductInCart : Product //зачем тут это наследование
     {
+//у тебя должен быть id продукта
         private int idUser;
         public int IdUser
         {
