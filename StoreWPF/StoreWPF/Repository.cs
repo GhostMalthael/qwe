@@ -61,8 +61,13 @@ namespace StoreWPF
         }
         public static void RegAccount(string login, string password)
         {
+//что за хрень
+//не создавать объект класса внутри того же самого класса
+// надо просто вызвать метод, он в этом же классе
             Repository repository = new Repository();
             repository.ReadFileJson();
+//убрать цикл
+//у массивов есть метод FirstOrDefault(твое значение, x=> x.Login == login) - проверяет, что в массиве есть значение, если есть - вернет юзера, иначе null -- нужна проверка на null
             foreach (var user in peopleDataBase)
             {
                 if (user.Login == login)
@@ -71,13 +76,18 @@ namespace StoreWPF
                     Console.WriteLine("Логин занят, введите другой");
                     continue;
                 }
+            
                 user.Id = peopleDataBase.Count;
             }
+
+//если юзер получился null, значит он новый и его id будет peopleDataBase.OrderByDescending(x=> x.Id).FirstOrDefault() -- проверка на null, если null, то id у нового пользователя сразу будет 0/1 -- если получили, то берем его Id + 1 - это будет id нового пользователя, которого добавляем в файл
             repository.WriteFileJson(login, password);
         }
         public static void AutAccount(string login, string password)
         {
             Authorization authorization = new Authorization();
+
+//без цикла, от массива FirstOrDefault(твое значение, x=> x.Login == login & сверка пароля), если null, то строка 112, иначе проверяем юзера на права админа 
             foreach (var user in peopleDataBase)
             {
                 if (user.Login == login && user.Password == password)
@@ -103,7 +113,7 @@ namespace StoreWPF
                 //Console.WriteLine("Такого пользователя нет, зарегистрируйтесь или повторите попытку!");
             }
         }
-
+//нет проверки, что этот продукт уже существует - нужно проверять хотя бы по названию, чтобы не было дубликатов
         public void WriteFileJsonProduct(string imagePath, string name, string description, int price, int maxAmount)
         {
             string productContentJson = File.ReadAllText(fileProductPath);
