@@ -14,6 +14,9 @@ namespace StoreWPF
             get { return id; }
             set { id = value; }
         }
+
+        //  public int Id { get; set; }
+        
         private string imagePath;
         public string ImagePath
         {
