@@ -49,7 +49,12 @@ namespace StoreWPF
         }
         public Product(int id, string imagePath, string name, string description, int price, int maxAmount) 
         {
+            var Id = "dsdsds";
+            this.Id = Id;
+            // в свойство класса сохраняется одноименная локальная переменная , если названия не совпадают, this можно опустить
+            
             this.Id = id;
+            //Id = id; - это тоже самое, что выше, т.к. названия разные
             this.ImagePath = imagePath;
             this.Name = name;
             this.Description = description;
