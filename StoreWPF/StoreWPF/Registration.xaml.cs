@@ -44,6 +44,7 @@ namespace StoreWPF
             {
                 LoginNull.Visibility= Visibility.Visible;
             }
+//поменять название, не ставить null в названиях
             PasswordNull.Visibility = Visibility.Hidden;
             if(PasswordNull == null)
             {
