@@ -24,6 +24,8 @@ namespace StoreWPF
         Repository repository = new Repository();
         public static int userId;
         private Product products;
+//жопа какая-то, миксер в глаза
+//убери свойство пж
         public Product Products { 
             get => this.products; 
             set { this.products = value; productName.Content = $"Название:\n {this.products.Name}";
@@ -33,7 +35,11 @@ namespace StoreWPF
         public UserControlStore(Product product)
         {
             InitializeComponent();
-            this.Products = product;
+            this.products = product;
+productName.Content = $"Название:\n {this.products.Name}";
+                productDescription.Content = $"Описание:\n{this.products.Description}";
+                productPrice.Content = $"Цена:\n{this.products.Price}";
+                imageProduct.Source = new BitmapImage(new Uri(this.products.ImagePath));
         }
 
         public void buttonBuy_Click(object sender, RoutedEventArgs e)
@@ -45,6 +51,7 @@ namespace StoreWPF
             repository.WriteFileJsonProductInCart(userId, Products.ImagePath, Products.Name, Products.Description, Products.Price, int.Parse(amountAddProduct.Content.ToString()) ,Products.MaxAmount); 
         }
 
+//этот юзерконтрол тоже должен из интерфейса
         private void buttonDelete_Click(object sender, RoutedEventArgs e)
         {
             int productId = Products.Id;
